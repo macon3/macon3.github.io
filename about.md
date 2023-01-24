@@ -2,14 +2,15 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
-Some information about you!
+Hello my name is Macon Moyer.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I like to fish.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[maconmoyer3@gmail.com](mailto:email@domain.com)
