@@ -1,6 +1,6 @@
 ---
-published: false
+published: true
 ---
 ## First Real Post
 
-This is the first real post aka the second post 
+This is the first real post aka the second post
