@@ -13,7 +13,8 @@
 /* BASE RULES */
 /**************/
 
-$background: rgba(204, 204, 255, .3);
+$my-background: #00aaff
+$my-opacity: 0.5; 
 
 html {
   font-size: 100%;
@@ -22,7 +23,7 @@ html {
 body {
   //background: $white;
   font: 18px/1.4 $helvetica;
-  color: $background;
+  color: rgba($my-background, $my-opacity);
   // color: darkGray;
 }
 
