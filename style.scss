@@ -13,14 +13,17 @@
 /* BASE RULES */
 /**************/
 
+$background: rgba(204, 204, 255, .3);
+
 html {
   font-size: 100%;
 }
 
 body {
-  background: $rgba(204, 204, 255, .3;
+  //background: $white;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: $background;
+  // color: darkGray;
 }
 
 .container {
