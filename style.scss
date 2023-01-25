@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  background: rgba(0, 0, 255, .3);
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -117,7 +117,7 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $midnightBlue;
 }
 
 // Specify the color of the selection
