@@ -13,18 +13,18 @@
 /* BASE RULES */
 /**************/
 
-$my-background: #00aaff
-$my-opacity: 0.5; 
+
 
 html {
   font-size: 100%;
 }
 
 body {
-  //background: $white;
+  background-color: rgb(204, 204, 255);
   font: 18px/1.4 $helvetica;
-  color: rgba($my-background, $my-opacity);
-  // color: darkGray;
+	opacity: 0.3;
+  
+   color: darkGray;
 }
 
 .container {
