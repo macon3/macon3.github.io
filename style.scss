@@ -20,7 +20,7 @@ html {
 }
 
 body {
- background: $white;
+ background: $red;
   font: 18px/1.4 $helvetica;
    color: $darkGray;
 }
@@ -30,7 +30,7 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
-	
+	background: $black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,7 +40,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
-  
+  background: $red;
+	
   @include mobile {
     line-height: 1.4;
   }
@@ -48,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 32px;
-	
+	background: $lime;
   a {
     color: inherit;
   }
@@ -56,7 +57,7 @@ h1 {
 
 h2 {
   font-size: 26px;
-	
+	background: $blue;
 }
 
 h3 {
