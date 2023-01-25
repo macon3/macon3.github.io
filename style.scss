@@ -20,9 +20,9 @@ html {
 }
 
 body {
- background-color: red;
+ background: $white;
   font: 18px/1.4 $helvetica;
-   color: darkGray;
+   color: $darkGray;
 }
 
 .container {
@@ -30,7 +30,7 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
-	background-color: lightblue;
+	
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
-  background-color: blue;
+  
   @include mobile {
     line-height: 1.4;
   }
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 32px;
-	background-color: green;
+	
   a {
     color: inherit;
   }
@@ -56,28 +56,28 @@ h1 {
 
 h2 {
   font-size: 26px;
-	background-color: lightgreen;
+	
 }
 
 h3 {
   font-size: 22px;
-	background-color: black;
+	
 }
 
 h4 {
   font-size: 20px;
   color: $gray;
-	background-color: lime;
+	
 }
 
 p {
   margin: 15px 0;
-	background-color: yellow;
+	
 }
 
 a {
   color: $blue;
-	background-color: cyan;
+	
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -88,21 +88,21 @@ a {
 ul, ol {
   margin: 15px 0;
   padding-left: 30px;
-	background-color: magenta;
+	
 }
 
 ul {
   list-style-type: disc;
-	background-color: silver;
+	
 }
 
 ol {
   list-style-type: decimal;
-	background-color: gray;
+	
 }
 
 ol ul, ul ol, ul ul, ol ol {
-	background-color: maroon;
+	
   margin: 0;
 }
 
