@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 32px;
-	background: $lime;
+	
   a {
     color: inherit;
   }
@@ -57,7 +57,7 @@ h1 {
 
 h2 {
   font-size: 26px;
-	background: $blue;
+	
 }
 
 h3 {
@@ -77,12 +77,12 @@ p {
 }
 
 a {
-  color: $blue;
+  
 	
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    
   }
 }
 
