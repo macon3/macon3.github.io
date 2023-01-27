@@ -60,18 +60,22 @@ h1 {
 
 h2 {
   font-size: 26px;
-	
+	$veryLightBlue;
 }
 
 h3 {
   font-size: 22px;
-	
+	color: $veryLightYellow;
 }
 
 h4 {
   font-size: 20px;
-  color: $darkGray;
-	
+  color: $darkGray;	
+}
+
+h5 {
+	font-size: 20px;
+    color: $blue;
 }
 
 p {
